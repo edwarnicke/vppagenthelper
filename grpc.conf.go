@@ -17,7 +17,7 @@
 package vppagenthelper
 
 const (
-	vppAgentConfDir          = "/etc/nsm/vpp-agent/"
+	vppAgentConfDir          = "/etc/vpp-agent/"
 	vppAgentGrpcConfFilename = vppAgentConfDir + "grpc.conf"
 	vppEndpoint              = "localhost:%d"
 	vppAgentGrpcConfContents = `# Documented here: https://docs.ligato.io/en/latest/user-guide/config-files/#grpc
