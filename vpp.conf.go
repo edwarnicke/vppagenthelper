@@ -17,7 +17,7 @@
 package vppagenthelper
 
 const (
-	vppConfFilename = "/etc/nsm/vpp/vpp.conf"
+	vppConfFilename = "/etc/vpp/vpp.conf"
 	vppConfContents = `unix {
   nodaemon
   log %[1]s/var/log/vpp/vpp.log
